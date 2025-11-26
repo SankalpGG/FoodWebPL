@@ -2,7 +2,7 @@
 import random
 import mysql.connector as c
 
-con=c.connect(host="localhost",user="root",passwd="SANKALP_4141",database="zomato")
+con=c.connect(host="localhost",user="root",passwd="password",database="zomato")
 cur=con.cursor()
 
 id={'user':"123456"}
@@ -160,7 +160,7 @@ def placeo():
         print(i[1])
     feedback()
 
-print("*********WELCOME TO ZOMATO WEB PLATFORM*********")
+print("*********WELCOME TO FOOD WEB PLATFORM*********")
 print("Enter your choice:")
 print("""
 1. For login
@@ -174,4 +174,5 @@ if dk==2:
 
 cur.close()
 con.commit()
+
 
