@@ -1,6 +1,2 @@
 #  Food Web Pl
-The main and complete version of the program is stored in file named pl.py and the database replica is stored in folder named zomato containing the data from server
-a project which sought to make a replica of the zomato web platform in python language along with using mysql server as its database
-it does not contain any graphics as the project was only to be made without use of graphics
-the program only contains some of the features of the actual website as it was directed under the guidance of the teacher
-This repo contains a cli client based app which i designed in my high school
+This repository contains a Python-based CLI project that I built in high school as a simplified replica of the Zomato web platform, using MySQL as the backend database. The main program is stored in pl.py, while the zomato folder includes a replica of the database used during development. The project was created under classroom guidelines, so it focuses purely on logic without any graphics and implements only a subset of the actual platform’s features. It stands as an early exploration of integrating Python with SQL and building functional menu-driven applications.
